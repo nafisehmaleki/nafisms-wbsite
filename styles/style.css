@@ -1,0 +1,84 @@
+body{background-image:url(../images/vichy.png);
+background-attachment:inherit}
+
+#header{ width:960px;
+height:200px;
+background-image:url(../images/back-header1.png);
+}
+#main{ width:960px;height:2000px;
+background-color:#D18788;
+margin:auto;
+}
+
+#logo{height:130px;
+width:150px;
+background-image:url(../images/01.png);
+background-repeat:no-repeat;
+float:right;
+margin-right:70px;
+margin-top:30px;
+}
+
+#left-header{height:150px;
+width:400px;
+background-color:#CFA1D5;
+margin-left:70px;
+margin-top:30px;
+float:left;
+}
+
+#right-s{
+	height:1000px;
+	width:300px;
+	background-color:#CDACAD;
+	float:right;	
+}
+#content{
+	height:1000px;
+	width:660px;
+	background-color:#871416;
+
+}
+#footer{
+	width:940px;
+	height:280px;
+	background-color:#ED7357;
+	padding:10px;
+}
+
+.footer-box{
+width:300px;
+height:200px;
+background-color:#8A6852;
+
+border-top-right-radius:20px;
+}
+
+#footer-right-box{
+float:right;	
+}
+
+#footer-center-box{
+margin-right:20px;
+float:right;
+-webkit-border-image:url(../images/diamonds.png) 25 stretch;
+border-width:25;	
+}
+
+#footer-left-box{
+float:left;	
+}
+
+#mylink{
+	list-style:none;
+}
+#mylink li{float:left;
+margin-left:20px;}
+ 
+#mylink li a{text-decoration:none; border:1px dotted red ;}
+#mylink li a:hover{color:#C5898A}
+
+/*a:link{text-decoration:none}
+a:hover{color:#C7898A}
+a:active{color:#571516}
+a:visited{color:#763B3C}*/
